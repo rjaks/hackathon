@@ -1,0 +1,143 @@
+:root{
+    --navbar: #8B7464;
+    --primary: #EEEBE6;
+    --secondary: #C9BBAE;
+    --dark-primary: #50433D;
+}
+
+*{
+    margin: 0;
+    max-width: 2160px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.main{
+    min-height:200vh;
+}
+
+nav{
+    position:fixed;
+    width:100%;
+    margin:auto;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 99;
+}
+nav ul{
+    text-align:center;
+    margin:0 100px auto 0;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:20px 40px;
+    font-size:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:var(--primary);
+    font-weight:bold;
+    transition:0.2s;
+}
+nav ul li a:hover{
+    opacity:75%;
+    color:var(--secondary);
+}
+.home{
+    height:100vh;
+    background: linear-gradient(rgb(80, 67, 61, 0.75), rgb(139,116,110,0.75)), url(starbucks.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+.home img{
+    position: relative;
+    display: block;
+    top: 15vh;
+    right: 5vh;
+    margin: 0 50vh 0 auto;
+    scale: 35%;
+}
+
+.home span{
+    font-weight:bold;
+    top:50px;
+    text-align: center;
+    color:white;
+    margin:0;
+    font-size:2.5rem;
+}
+.head{
+    background-color: var(--secondary);
+    margin:0;
+    height:100vh;
+}
+
+.column{
+    margin: 25vh 25px 0 25px;
+    background-color: var(--primary);
+    border: 2px solid var(--dark-primary);
+    border-radius: 0.5rem;
+    width:29%;
+    padding:50px 25px 50px 25px;
+}
+i{
+    font-size:10vh;
+    color:var(--dark-primary);
+}
+h2{
+    font-weight:bold;
+    color:var(--dark-primary);
+}
+.head span{
+    font-size:25px;
+}
+.column a{
+    text-decoration: none;
+    transition:0.2s;
+}
+.column a:hover{
+    transform:scaleX(105%);
+    opacity:75%;
+}
+
+.customer{
+    margin: 25px 0 25px;
+    background-color: var(--primary);
+    border: 2px solid var(--dark-primary);
+    border-radius: 0.5rem;
+    width:29%;
+    padding:50px 25px 50px 25px;
+}
+
+footer{
+    background-color: var(--dark-primary);
+    margin:auto;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 99;
+    padding-top: 25px;
+    padding-bottom:25px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    color:var(--primary)
+}
+
+th, td{
+    width: 300px;
+}
+tr th{
+    color:var(--secondary);
+}
+td a{
+    text-decoration: none;
+    color:white;
+    transition:0.2s;
+}
+td a:hover{
+    transform:scaleX(105%);
+    opacity:75%;
+}
