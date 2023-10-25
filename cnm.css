@@ -6,12 +6,12 @@
 }
 
 .main-cnm{
-    min-height:150vh;
+    min-height:100vh;
     background-color:var(--primary);
 }
 .container{
     min-height:100vh;
-    padding-top:25vh;
+    padding-top:15vh;
     margin: 0 5vh 0 5vh;
 }
 .row{
@@ -177,4 +177,18 @@ h3, p{
    -webkit-line-clamp: 2; /* number of lines to show */
            line-clamp: 2;
    -webkit-box-orient: vertical;
+}
+
+.container h2{
+    padding-bottom: 30px;
+    font-size:5vh;
+}
+
+.container span{
+    float: right;
+    padding-bottom: 30px;
+    padding-right: 10vh;
+    color:var(--navbar);
+    text-decoration: underline;
+    font-size:30px;
 }

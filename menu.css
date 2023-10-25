@@ -48,77 +48,78 @@ nav img{
     width:10%;
 }
 .container{
-    min-height:100vh;
+    padding-top:10vh;
+    padding-left:10vh;
 }
+.container h2{
+    padding-top: 10vh;
+    font-size:7vh;
+    box-sizing:border-box;
+}
+.container i{
+    float:left;
+    font-size:4vh;
+    margin-right: 10px;
+    font-weight:400;
+}
+.container span{
+    float:left;
+    font-size:4vh;
+    color:var(--dark-primary);
+    font-weight:200;
+}
+
+.logo{
+    position:absolute;
+    width:15%;
+    right:10vh;
+    top:15vh;
+}
+
+#back{
+    position:fixed;
+    bottom:5vh;
+    left:10vh;
+    text-decoration:none;
+    color:white;
+    transition:0.2s;
+}
+
+#back:hover{
+    opacity:75%;
+}
+
 .row{
     display:table;
     content:"";
-    margin:0;
-    height:100vh;
-    width:100%;
+    margin:10px;
 }
-.column1, .column2{
-    margin:auto;
+.column{
     float:left;
-    width:50%;
-    height:100vh;
-}
-.column1{
-    background: linear-gradient(to right, rgb(0,0,0,0.05), rgb(255,255,255)), url(m50\ cafe.jpg);
-    object-position: 100% 0;
-}
-.column2{
-    padding-top:25vh;
-    height:75vh;
-}
-h1{
-    color:var(--dark-primary);
-    font-weight:bold;
-    font-size:7vh;
-    margin:0;   
-}
-.column2 a{
-    float:left;
-    text-decoration: none;
-    color:white;
-    background-color:var(--dark-primary);
-    padding:10px;
-    font-size:2.5vh;
     margin-right:10px;
-    border-radius: 1rem;
-    transition:0.2s;
-    z-index:98
+    height:35vh;
+    width:25vh;
+    text-align:center;
+    color:#50433D;
 }
-.column2 a:hover{
-    opacity:75%;
+.column img{
+    width: 100%;
+    height: 25vh;
 }
-.column2 a i{
-    color:white;
-    font-size:25px;
-    padding-left:10px;
-}
-.column2 span i{
-    float:left;
-    font-size:25px;
-    margin-right: 10px;
-}
-.column2 span{
-    color:var(--navbar);
-    font-size:3vh;
-    padding-left: 5px;
-    font-weight:200;
-}
-.column2 h2{
-    text-align: justify;
-    padding-right:50px;
+.column h3{
+    padding-top:10px;
     font-size:30px;
-    font-weight: 400;
-    line-height: 1.2;
 }
-#arrow{
-    position:absolute;
-    padding:25px;
-    right:5vh;
-    bottom:5vh;
-    border-radius:5rem;
+.column i{
+    display:flex;
+}
+.column a{
+    border: 2px solid var(--secondary);
+    padding: 10px;
+    color:var(--navbar);
+    transition:0.2s;
+}
+.column a:hover{
+    background-color:#50433D;
+    color:white;
 }
