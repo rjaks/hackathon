@@ -140,7 +140,7 @@ td a:hover{
     height:75vh;
 }
 #coffee{
-    background: linear-gradient(rgb(80, 67, 61, 0.75), rgb(139,116,110,0.5)), url(/coffee\ pangit.jpg);
+    background: linear-gradient(rgb(80, 67, 61, 0.75), rgb(139,116,110,0.5)), url(coffee\ pangit.jpg);
     background-size:cover;
 }
 #cof{
@@ -148,7 +148,7 @@ td a:hover{
     background-size:cover;
 }
 #collab{
-    background: linear-gradient(rgb(80, 67, 61, 0.75), rgb(139,116,110,0.5)), url(/collab.jpg);
+    background: linear-gradient(rgb(80, 67, 61, 0.75), rgb(139,116,110,0.5)), url(collab.jpg);
     background-size:cover;
 }
 .head1 td a:hover{
