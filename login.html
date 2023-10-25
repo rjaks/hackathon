@@ -28,9 +28,10 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            height:400px;
+            height:500px;
         }
         h1 {
+            font-weight:bold;
             margin-top:50px;
             text-align:center;
             font-size:50px;
@@ -38,7 +39,7 @@
         }
         input[type="text"], input[type="password"] {
             width: 85%;
-            height:20px;
+            height:50px;
             padding: 10px;
             margin: 10px 0;
             margin-bottom:0;
@@ -115,6 +116,19 @@
             background-color:#50433D;
             color:#eeebe6;
         }
+        form{
+            text-align:center;
+        }
+        form a{
+            text-decoration: none;
+            margin-top:10px;
+            transition: 0.2s;
+            opacity:50%;
+        }
+        form a:hover{
+            opacity:75%;
+            color:black;
+        }
     </style>
 </head>
 <body>
@@ -125,13 +139,14 @@
         <form action="cafenearme.html" method="get">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
-            <div class="button-container">
+            <!-- <div class="button-container">
                 <button class="custom-button" id="button1">Facebook</button>
                 <button class="custom-button" id="button2">Google</button>
                 <button class="custom-button" id="button3">X</button>
                 <button class="custom-button" id="button4">Instagram</button>
-            </div>
+            </div> -->
             <input type="submit" value="Login">
+            <a href="cafenearme.html">Login as Guest</a>
         </form>
     </div>
     </div>

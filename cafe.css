@@ -1,0 +1,124 @@
+:root{
+    --navbar: #8B7464;
+    --primary: #EEEBE6;
+    --secondary: #C9BBAE;
+    --dark-primary: #50433D;
+}
+
+nav{
+    display:flex;
+    position:fixed;
+    width:100%;
+    margin:auto;
+    align-items:center;
+    justify-content: space-between;
+    padding:20px 0;
+    z-index: 99;
+    background-color: var(--navbar);
+}
+nav a img{
+    width:15%;
+    padding-left: 15vh;
+}
+nav a{
+    width:50%;
+}
+nav ul{
+    text-align:center;
+    margin:0 20px auto 0;
+    padding-right:50px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 10px;
+    font-size:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:var(--primary);
+    font-weight:bold;
+    transition:0.2s;
+}
+nav ul li a:hover{
+    opacity:75%;
+    color:var(--secondary);
+}
+nav img{
+    width:10%;
+}
+.container{
+    min-height:100vh;
+}
+.row{
+    display:table;
+    content:"";
+    margin:0;
+    height:100vh;
+    width:100%;
+}
+.column1, .column2{
+    margin:auto;
+    float:left;
+    width:50%;
+    height:100vh;
+}
+.column1{
+    background: linear-gradient(to right, rgb(0,0,0,0.05), rgb(255,255,255)), url(m50\ cafe.jpg);
+    object-position: 100% 0;
+}
+.column2{
+    padding-top:25vh;
+    height:75vh;
+}
+h1{
+    color:var(--dark-primary);
+    font-weight:bold;
+    font-size:7vh;
+    margin:0;   
+}
+.column2 a{
+    float:left;
+    text-decoration: none;
+    color:white;
+    background-color:var(--dark-primary);
+    padding:10px;
+    font-size:2.5vh;
+    margin-right:10px;
+    border-radius: 1rem;
+    transition:0.2s;
+    z-index:98
+}
+.column2 a:hover{
+    opacity:75%;
+}
+.column2 a i{
+    color:white;
+    font-size:25px;
+    padding-left:10px;
+}
+.column2 span i{
+    float:left;
+    font-size:25px;
+    margin-right: 10px;
+}
+.column2 span{
+    color:var(--navbar);
+    font-size:3vh;
+    padding-left: 5px;
+    font-weight:200;
+}
+.column2 h2{
+    text-align: justify;
+    padding-right:50px;
+    font-size:30px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+#arrow{
+    position:absolute;
+    padding:25px;
+    right:5vh;
+    bottom:5vh;
+    border-radius:5rem;
+}
